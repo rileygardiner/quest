@@ -35,6 +35,7 @@ else {
 <br><br><br><br>
 <div class="container">
 
+  <div class="col">
   <pre>
                                                                                                                        sBG  ,BB:
                                              Bi        Br                                                              BBBs BBBB
@@ -85,7 +86,7 @@ else {
   <div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
       <br>
       <form name="login" style="margin: 5px 0px 0px 0px;">
-      <input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
+      <input type="text" name="pass" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
       <input type="button" value="ENTER" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)"
       </form>
 
