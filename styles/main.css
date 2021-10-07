@@ -6,11 +6,9 @@ body {
 }
 pre {
     background-color:#000000;
-	  color: #00ff00;
+	  color: #0000FF;
     text-align: left;
-    font-size: 0.4vw;
     display: inline-block;
-    margin-top: 2%;
 }
 a:link, a:visited {
     color: #00ff00;
