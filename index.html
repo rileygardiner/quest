@@ -86,11 +86,18 @@ else {
 
   <div class="form-group" style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
       <br>
-      <input type="password" inputmode="none" name="pass" size="17" style="width: 130px;"><br>
+      <input type="password" inputmode="none" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');"><br>
       <input type="button" value="ENTER" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)"
   </div>
 </form>
 
+<form class="form-inline">
+  <div class="form-group">
+    <label for="inputPassword6">Password</label>
+    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+  
+  </div>
+</form>
 
 </div>
 <br><br><br>
